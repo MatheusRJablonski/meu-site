@@ -1,0 +1,118 @@
+:root{
+    --white:#ffffff;
+    --black:#000000;
+    --blue:#023859;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: var(--bg);
+}
+.conteudo{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    padding-bottom: 15vh;
+}
+.cadastro{
+    border-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;   
+    margin: auto;
+    text-align: center;
+    background-color: #ededed;
+    height: auto;
+
+}
+
+.tema-claro{
+    background-image: url(../imagens/fundotelacadastro.png);
+    --fontColor:var(--black); 
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+label{
+    display: flex;
+    margin: 2%;
+    flex-wrap: wrap;
+}
+     .dadosUnidos {
+        display: grid;
+        grid-template-columns:repeat(10, 10%);
+        justify-content: space-between;
+        row-gap: 4px;
+    } 
+    .dadosUnidos span{
+        
+        grid-column: 1 / span 3;
+        
+    }
+    .dadosUnidos #paisEndereco{
+        grid-column: 1 / span 2;
+        
+    }
+    .dadosUnidos #estadoEndereco{
+        grid-column: 3/ span 4;
+        margin-left: 4px;
+        margin-right: 4px;
+        max-width: fit-content;
+    }
+    .dadosUnidos #cidadeEndereco{
+        grid-column: 7 / span 10;
+    }
+    .dadosUnidos #bairroEndereco{
+        grid-column: 1 /span 3;
+    }
+    .dadosUnidos #ruaEndereco{
+        margin-left: 4px;
+        margin-right: 4px;
+        max-width:fit-content;
+        grid-column: 4 /span 5;
+    }
+    .dadosUnidos #numeroEndereco{
+        grid-column: 9 /span 2;
+        
+    }
+
+.btnCadastro{
+    margin: 10px;
+    width: 90%;
+    color: var(--white);
+    height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+   background-color: green;
+   border-radius: 5px;
+
+}
+.dados{
+    color: var(--black);
+    height: 25px; 
+    border: 1px solid black; 
+    border-radius: 3px;
+    width: 100%;  
+    padding-left: 3px;
+}
+form{
+    text-align: left;
+    margin-left: 10% ;
+    margin-right: 10% ;
+}
+.brasil{
+    display: flex;
+}
+
+span {
+    display: block;
+    width: 100%;
+}
+.espacamento{
+    padding: 5%;
+   padding-top: 0;
+   text-align: center;
+}

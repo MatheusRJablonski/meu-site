@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nanum+Gothic&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabeca">
+        
+       
+        <!-- Menu Hamburguer (ícone) -->
+    
+        <div class="divMenu">
+            <div class="iconeLogin">
+                <img src="../imagens/iconeLogin.png" alt="">
+            </div>
+            <div class="menu-toggle" id="mobile-menu" onclick="MenuLateral()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        
+
+        
+        <div id="side-menu" class="desativado" onmouseleave="MenuLateral()">
+            <ul>
+                <li><a href="./cadastro.html">Cadastre-se</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </div>
+        
+
+        <nav>
+        <div class="imgPrefeitura">
+            <img src="../imagens/logoPrefeitura.png" alt="">
+        </div>    
+        
+        
+       <div class="pesquisaContainer">
+            <div class="Btmeio">
+                <img id="lupaClick" src="../imagens/lupa-preview.png" alt="" onclick="abrirBarraPesquisa()">
+                <input id="pesquisaInput" type="text" placeholder="Pesquisar...">
+            </div>
+        </div>
+     
+
+        <ul>
+            <li class="botao botaoAtivo"><a href="./index.html">Página inicial</a></li>
+            <li class="botao"><a href="./jogos.html">Jogos</a></li>
+            <li class="botao"><a href="./VideoAulas.html">Videoaulas</a></li>
+            <li class="botao"><a href="./sobrenos.html">Sobre Nós</a></li>
+        </ul>
+        
+        </nav>
+    </header>
+
+<div class="conteudo">
+    <div class="parteSuperior">
+        
+        <div class="circuloAzul">
+            <img src="../imagens/logoEptran.png" alt="">
+            
+        </div>
+        <div class="logoCriada">
+            <img src="../imagens/logoCriada.png" alt="">
+        </div>
+    </div>
+    <h1>Notícias</h1>
+    <div class="parteInferior"> 
+        <div class="informacao1 quadrado"></div>
+        <div class="informacao2 quadrado"></div>
+        <div class="informacao3 quadrado"></div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="imagensFooter">
+        <img src="../imagens/Logos(semPrefeitura).png" alt="">
+        <!-- <img src="../imagens/logoDetran.png" alt=""> -->
+    </div>
+</footer>
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
