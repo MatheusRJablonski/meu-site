@@ -1,0 +1,53 @@
+:root {
+    --corDiferente:#ffdead;
+    --white:#ffffff;
+    --black:#000000;
+    --azul:#00ffff;
+}
+
+*{
+    color:var(--fontColor);
+    margin: 0;
+}
+
+.tema-claro{
+    background-color:var(--corDiferente);
+    --fontColor:var(--black); 
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+.tema-escuro{
+    background-color: var(--black);
+    --fontColor: var(--corDiferente);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+.btn {
+    
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+.btn:focus{
+    outline-style:none;
+
+}
+.botaoInteligente{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    height: 50px;
+    width: 75px;
+    border-radius: 50%;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+.escondida{
+    visibility: hidden;
+}

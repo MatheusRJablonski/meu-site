@@ -1,0 +1,49 @@
+:root {
+    --green:#ffdead;
+    --white:#ffffff;
+    --black:#000000;
+    --azul:#00ffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffdead;
+}
+.menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.menu div{
+    min-width: 125px;
+    text-decoration: none;
+    color: #000000;
+
+    display: block;
+    flex: 1;
+   
+}
+.menu div a{
+    padding-block: 10px;
+    min-width: 125px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    flex: 1;
+    border: #000000 solid 1px;
+    border-radius: 20px;
+    text-align: center;    
+}
+
+

@@ -1,0 +1,123 @@
+/* ============================= Tela Principal ============================ */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffdead;
+    height: 100vh;
+    width: 100%;
+}
+main{
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+a{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.btnPrincipal{
+    width: max-content;
+    margin: auto;
+}
+button{
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btnStart{
+    margin: 20px;
+    border-radius: 20px;
+}
+#recebimento2{
+    margin: auto;
+    font-size: x-large;
+    
+}
+.btnStart h1{
+    padding: 15px;
+}
+.hidden{
+    display: none;
+}
+.resposta{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 60vw;
+    min-width: 200px;
+    height: max-content;
+    background-color: aliceblue;
+    z-index: 5;
+    padding-bottom: 15px;
+    border-radius: 1rem;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bloqueio{
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.6;
+    background-color: black;
+}
+/* ============================= caixas de texto ============================ */
+
+ .resposta .tituloCaixa{
+    margin: 5%;
+    margin-top: 55px;
+    text-align: justify;
+    width: 90%;
+}
+.resposta .btnFechar{
+    margin: 8px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0;
+}
+ .resposta input{
+    margin: auto;
+    text-align: center;
+    padding-block: 14px;
+    width: 20%;
+    min-width: 100px;
+    padding-left: 10px;
+    border: solid 1px black;
+    font-size: x-large;
+    border-radius: 10px;
+}
+ .resposta .enviar{
+    margin: auto;
+    margin-top: 10px;
+    padding-block: 20px;
+    width: 18%;
+    min-width: 80px;
+    border-radius: 8px;
+}
+.resposta select{
+    margin: auto;
+    border-radius: 5px;
+    margin-block: 10px;
+    padding-block: 10px;
+    width: 20%;
+    min-width: 100px;
+    font-size: large;
+}
+ .resposta span{
+    margin: auto;
+    font-size: 52px;
+
+}
+ .resposta .flex h2{
+    margin: auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <a href="../index.html">voltar</a>
+        <div class="bloqueio hidden"></div>
+
+        <div id="contagemRegressiva" class="btnPrincipal">
+            <button onclick="abrirCaixa('contagemRegressiva')" class="btnStart flex">
+                <h1>Contagem Regressiva</h1>
+                <span id="recebimento2"></span>     
+            </button>
+            <div class="resposta hidden">
+                <button class="btnFechar" onclick="fecharCaixa('contagemRegressiva')"><h2>X</h2></button>
+                <h2 class="tituloCaixa">
+                    Este é um programa de contagem regressiva, por favor informe o numero da contagem em segundos
+                </h2>
+                <div class="flex">
+                    <input type="number" id="contador">
+                </div>
+                <div class="flex">
+                    <button class="enviar" onclick="contagemRegressiva()">enviar</button>
+                </div>
+                <div class="flex">
+                    <span id="recebimento">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="financas" class="btnPrincipal">
+            <button onclick="abrirCaixa('financas')" class="btnStart">
+                <h1>Finanças Anuais</h1> 
+            </button>
+            <div class="resposta hidden">
+                <button class="btnFechar" onclick="fecharCaixa('financas')"><h2>X</h2></button>
+                <h2 class="tituloCaixa">
+                    Isto é uma calculadora de finanças anuais, por favor informe o numero do faturamento e dos gastos de cada mês da empresa.
+                </h2>
+                <div class="flex">
+                    <input type="number" id="faturamento" placeholder="faturamento">
+                    <input type="number" id="gastos" placeholder="gastos">
+                </div>
+                <div class="flex">
+                    <button class="enviar" onclick="calcularFinancas()">enviar</button>
+                </div>
+                <div class="flex">
+                    <h2>Valor Acumulado dos lucros</h2>
+                </div>
+                <div class="flex">
+                    <span id="recebimento">R$0,00</span>
+                </div>
+            </div>
+        </div>
+        <div id="ordemDecrescente" class="btnPrincipal">
+            <button onclick="abrirCaixa('ordemDecrescente')" class="btnStart">
+                <h1>Ordenar Numeros</h1>
+            </button>
+            <div class="resposta hidden">
+                <button class="btnFechar" onclick="fecharCaixa('ordemDecrescente')"><h2>X</h2></button>
+                <h2 class="tituloCaixa">
+                    Isto é um ordenador de numeros, por favor informe qual ordem deseja e até 4 numeros.
+                </h2>
+                <div class="flex">
+                    <button class="enviar" onclick="ordenarDecrescente()">enviar</button>
+                </div>
+                <div class="flex">
+                    <select name="" id="escolherOrdem">
+                        <option value="-">Descrecente</option>
+                        <option value="+">Crescente</option>
+                    </select>
+
+                </div>
+                <div class="flex">
+                    <input type="number" class="numeroOrdenavel" placeholder="valor">
+                    <input type="number" class="numeroOrdenavel" placeholder="valor">
+                    <input type="number" class="numeroOrdenavel" placeholder="valor">
+                    <input type="number" class="numeroOrdenavel" placeholder="valor">    
+                </div>
+                <div class="flex">
+                    <span id="recebimento3"></span>  
+                </div>
+            </div>
+        </div>
+        <div id="transformarParImpar" class="btnPrincipal">
+            <button onclick="abrirCaixa('transformarParImpar')"class="btnStart">
+                <h1>Transformar Numero</h1>
+            </button>
+            <div class="resposta hidden">
+                <button class="btnFechar" onclick="fecharCaixa('transformarParImpar')"><h2>X</h2></button>
+                    <h2 class="tituloCaixa">
+                        Isto é um conversor de numeros, por favor informe um numero qualquer para converter de par para impar ou impar para par.
+                    </h2>
+                    <div class="flex">
+                        <button class="enviar" onclick="transformarParImpar()">enviar</button>
+                    </div>
+                    <div class="flex">
+                        <select name="" id="escolherOrdem">
+                            <option value='maior'>Para o maior</option>
+                            <option value='menor'>Para o menor</option>
+                        </select>
+        
+                    </div>
+                    <div class="flex">
+                        <input type="number" placeholder="valor">
+                    </div>
+                    <div class="flex">
+                        <span id="recebimento4"></span>  
+                    </div>
+            
+            </div>
+        </div>
+    </main>
+
+<script src="./main.js"></script>
+</body>
+</html>

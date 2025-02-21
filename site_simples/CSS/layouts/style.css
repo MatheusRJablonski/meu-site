@@ -1,0 +1,78 @@
+:root{
+    
+    --bg:black;
+}
+body{
+    background-color: #ffdead;
+}
+section {
+    justify-content: center;
+    width: 70%;
+    size:unset;
+    width: min-content;
+}
+div{
+    margin: 10px;
+}
+.flex{
+    display: flex;
+}
+.block{
+    display: block;
+}
+
+header{
+    background-color: lightgray;
+    width:70%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+}
+main{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.quadrado{
+    background-color: var(--bg);
+    width: 150px;
+    height: 150px;
+}
+
+.grandehorizontal{
+    background-color: var(--bg);
+    width: 490px;
+    height: 150px;
+}
+.grandevertical{
+    background-color: var(--bg);
+    width: 150px;
+    height: 490px;
+}
+.mediavertical{
+    height: 320px;
+    background-color: var(--bg);
+    width: 150px;
+}
+.mediahorizontal{
+    width: 320px;
+    height: 150px;
+    background-color: var(--bg);
+}
+.quadradogrande{
+    height: 320px;
+    width: 320px;
+    background-color: var(--bg);
+}
+.quadradovazio{
+    width: 150px;
+    height: 150px;
+}
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+}
+

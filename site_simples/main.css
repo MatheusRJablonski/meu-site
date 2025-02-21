@@ -1,0 +1,118 @@
+:root {
+    --green:#ffdead;
+    --white:#ffffff;
+    --black:#000000;
+    --azul:#00ffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffdead;
+}
+
+main .centro{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .topo .imagem{
+    width: 48%;
+    min-width: 300px;
+    height: 300px;
+    margin: 2rem;
+    background-color: #000000;
+}
+main .topo .texto{
+    min-width: 300px;
+    width: 40%;
+    text-align: justify;
+    margin-block: 2rem;
+}
+
+main .conhecimento{
+    display: flex;
+    align-items: center;
+    
+}
+main .conhecimento a{
+    min-width: 125px;
+    text-decoration: none;
+    color: #000000;
+    margin: 10px;
+    display: block;
+    flex: 1;
+    border: #000000 solid 1px;
+    border-radius: 20px;
+    
+}
+main .conhecimento a:hover{
+    box-shadow: #000000 0px 0px 20px 1px;
+    border: none;
+   transition: 1s;
+}
+main .conhecimento a img{
+    width: 70%;
+    height: auto;
+    margin-inline: 15%;
+}
+main .conhecimento a p{
+    width: max-content;
+    margin: auto;
+    padding-block: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ul{
+    font-family: Helvetica;
+}
+li{
+    list-style: circle;
+}
+.list {
+    list-style: square;
+} */
+/* 
+.tema-claro{
+    --bg: var(--green);
+    --fontColor:var(--black); 
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+.tema-escuro{
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+} */
+
+
