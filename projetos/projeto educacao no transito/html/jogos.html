@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/jogos.css">
+    <link rel="stylesheet" href="../css/cabecalho.css">
+    
+</head>
+<body>
+    <header class="cabeca">
+        
+       
+        <!-- Menu Hamburguer (ícone) -->
+    
+        <div class="divMenu">
+            <div class="iconeLogin">
+                <img src="../imagens/iconeLogin.png" alt="">
+            </div>
+            <div class="menu-toggle" id="mobile-menu" onclick="MenuLateral()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        
+
+        
+        <div id="side-menu" class="desativado" onmouseleave="MenuLateral()">
+            <ul>
+                <li><a href="./cadastro.html">Cadastre-se</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </div>
+        
+
+        <nav>
+        <div class="imgPrefeitura">
+            <img src="../imagens/logoPrefeitura.png" alt="">
+        </div>    
+        
+        
+       <div class="pesquisaContainer">
+            <div class="Btmeio">
+                <img id="lupaClick" src="../imagens/lupa-preview.png" alt="" onclick="abrirBarraPesquisa()">
+                <input id="pesquisaInput" type="text" placeholder="Pesquisar...">
+            </div>
+        </div>
+     
+
+        <ul>
+            <li class="botao"><a href="./index.html">Página inicial</a></li>
+            <li class="botao botaoAtivo"><a href="./jogos.html">Jogos</a></li>
+            <li class="botao"><a href="./VideoAulas.html">Videoaulas</a></li>  
+            <li class="botao"><a href="./sobrenos.html">Sobre Nós</a></li>
+        </ul>
+        
+        </nav>
+    </header>
+    <div class="conteudo">
+    <main class="mainpermanente">
+        <h1 class="titulo">Todos somos pedestres</h1>
+    </main>
+    
+    <main class="mainprincipal">
+        <div class="divdivisoria " onclick="jogoMemoria('1')">
+            <h2>Jogo da memoria</h2>
+            <div class="arquivojogo">
+               <img src="../imagens/jogomemoria Placas/principalPlacas.png" alt="">
+            </div>
+            <div class="textoConteudo">
+
+            </div>
+        </div>
+        <div class="divdivisoria " onclick="jogoMemoria('2')">
+            <h2>Jogo da memoria</h2>
+            <div class="arquivojogo">
+               <img src="../imagens/jogomemoria Veiculos/principalVeiculos.png" alt="">
+            </div>
+            <div class="textoConteudo">
+
+            </div>
+        </div>
+        <div class="divdivisoria " onclick="jogoMemoria('3')">
+            <h2>Jogo da memoria</h2>
+            <div class="arquivojogo">
+               
+            </div>
+            <div class="textoConteudo">
+
+            </div>
+        </div>
+        <div class="divdivisoria" onclick="jogoEscolha()">
+            <h2>Jogo da escolha</h2>
+            <div class="arquivojogo">
+                
+             
+                
+            </div>
+            <div class="textoConteudo">
+
+            </div>
+        </div>
+        
+        <div class="divdivisoria" onclick="videoAula('1')">
+            <h2>Video aula</h2>
+            <div class="arquivojogo">
+                
+               
+                  
+            </div>
+            <div class="textoConteudo">
+                
+            </div>
+        </div>
+        <div class="divdivisoria" onclick="videoAula('2')">
+            <h2>Video aula</h2>
+            <div class="arquivojogo">
+                
+                
+                  
+            </div>
+            <div class="textoConteudo">
+                
+            </div>
+        </div>
+        <div class="divdivisoria" onclick="videoAula('3')">
+            <h2>Video aula</h2>
+            <div class="arquivojogo">
+                
+                
+                  
+            </div>
+            <div class="textoConteudo">
+                
+            </div>
+        </div>
+
+    </main>
+    <main class=" mainsecundario invisivel">
+        <div class="divdivisoria2">
+            <h2 class="titulo2">Jogo da memoria</h2>
+            <div class="arquivojogo">
+               
+            </div>
+            <div class="textoConteudo">
+
+            </div>
+            
+        </div>
+        <div class="divdivisoria2">
+            <h2 class="titulo2">Jogo da memoria</h2>
+            <div class="arquivojogo">
+               
+            </div>
+            <div class="textoConteudo">
+
+            </div>
+            
+        </div>
+        <div class="divdivisoria2">
+            <h2 class="titulo2">Jogo da memoria</h2>
+            <div class="arquivojogo">
+               
+            </div>
+            <div class="textoConteudo">
+
+            </div>
+            
+        </div>
+        <div class="divdivisoria2">
+            <h2 class="titulo2">Jogo da escolha</h2>
+            <div class="arquivojogo">
+                <div class="">
+                    
+                </div>
+            </div>
+            <div class="textoConteudo">
+
+            </div>
+            
+        </div>
+        <div class="divdivisoria2">
+            <h2 class="titulo2">Video aula</h2>
+            <div class="arquivojogo">
+                <div class="">
+                    
+                </div>  
+            </div>
+            <div class="textoConteudo">
+                
+            </div>
+            
+        </div>
+        <div class="divdivisoria2">
+            <h2 class="titulo2">Video aula</h2>
+            <div class="arquivojogo">
+                <div class="">
+                    
+                </div>  
+            </div>
+            <div class="textoConteudo">
+                
+            </div>
+            
+        </div>
+        <div class="divdivisoria2">
+            <h2 class="titulo2">Video aula</h2>
+            <div class="arquivojogo">
+                <div class="">
+                    
+                </div>  
+            </div>
+            <div class="textoConteudo">
+                
+            </div>
+            
+        </div>
+        <button class="voltar" onclick="voltarTelaPrincipal()">Voltar</button>
+    </main>
+</div>
+    <footer class="footer">
+        <div class="imagensFooter">
+            <img src="../imagens/Logos(semPrefeitura).png" alt="">
+        </div>
+    </footer>
+    <script src="../js/jogos.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
