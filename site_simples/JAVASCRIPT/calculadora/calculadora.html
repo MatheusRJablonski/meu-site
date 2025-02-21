@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculadora.js"></script>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <a href="../index.html">voltar</a>
+    <div class="posicao">
+        <h1>Calculadora simples</h1>
+        <select class="dados" name="operacao" id="operador">
+            <option value="*">multiplicação</option>
+            <option value="/">divisão</option>
+            <option value="+">soma</option>
+            <option value="-">subtração</option>
+        </select>
+        <h2>Primeiro numero</h2>
+        <label for="num1">
+        <input class="dados" type="number" id="num1"></label>
+        <h2>Segundo numero</h2>
+        <label for="num2">
+        <input class="dados" type="number" id="num2"></label>
+        <h2>Resultado</h2>
+        <div class="numResult"><span id="result"></span></div>
+        <button onclick="operacao()"><span>Ver Resultado</span></button>
+    </div>
+</body>
+</html>

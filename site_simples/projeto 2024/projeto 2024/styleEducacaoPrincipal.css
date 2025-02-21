@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.arquivojogo img{
+    width: 40%;
+   
+}
+.divdivisoria{
+    margin: 1%; 
+    width: 300px;
+}
+.textoConteudo{
+    text-align: justify;
+}
+.elementoParaEsconder {
+    display: block;
+}
+.arquivojogo{
+    background-color: gray;
+    height: 300px;
+    
+}
+.arquivojogo div{
+    height: 300px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

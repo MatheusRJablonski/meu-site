@@ -1,0 +1,80 @@
+:root{
+    --white:#ffffff;
+    --black:#000000;
+    --blue:#00008b;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: var(--bg);
+}
+.cadastro{
+    position: absolute;
+    right: 35%;
+    left: 35%;
+    top: 25%;
+    border-color: black;
+    border: 2px solid black;
+    width: 25%;   
+    margin: auto;
+    text-align: center;
+    background-color: #ededed;
+}
+
+.tema-claro{
+    background-image: url(./imagens/fundotelacadastro.png);
+    --fontColor:var(--black); 
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+label{
+    display: flex;
+    margin: 2%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dadosUnidos .dados {
+    width: 30%;
+
+}
+.btnCadastro{
+    margin: 10px;
+    width: 90%;
+    color: var(--white);
+    height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+   background-color: green;
+
+}
+.dados{
+    color: var(--black);
+    height: 25px; 
+    border: 1px solid black; 
+    border-radius: 2%;
+    margin: 1%;
+    width: 100%;  
+    
+}
+form{
+    text-align: left;
+    margin-left: 10% ;
+    margin-right: 10% ;
+}
+.brasil{
+    display: flex;
+}
+
+span {
+    display: block;
+    width: 100%;
+}
+.espacamento{
+    padding: 5%;
+   padding-top: 0;
+   text-align: center;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="./cadastrologinStyle.css">
+    <link rel="stylesheet" href="./cabecalho.css">
+</head>
+<body class="tema-claro">
+    <header class="cabeca">
+        <div class="imgprefeitura">
+            <img src="./imagens/logo_prefeituradejoinville.png" alt="Logo site">
+        </div>
+        <nav>
+        <ul>
+            <li class="botao"><a href="./index.html" >Página inicial</a></li>
+            <li class="botao"><a href="./LeisT.html" >Leis de Trânsito</a></li>
+            <li class="botao"><a href="./educacao.html" >Educação</a></li>
+            <li class="botao"><a href="./login.html" >ENTRAR</a></li>
+            <li class="botao botaoAtivo"><a href="./cadastro.html" >CRIE UMA CONTA</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="cadastro">
+        <h1 style="margin: 10px;">Cadastro</h1>
+        <form>
+            <label for="nome"><span>Nome Completo:</span>
+                <input class="dados" type="text" id="nomeCompleto" placeholder="Nome completo">
+            </label>
+            
+
+            <label for="numeroMatricula"><span>Numero da Matricula:</span>
+                <input class="dados" type="text" id="numeroMatricula" placeholder="Ex: 00-00-00">
+            </label>
+            
+            <label class="dadosUnidos" for="endereco"><span>Endereço</span>
+                <input class="dados" type="text" placeholder="País" value="Brasil" >
+                <select class="dados" name="Estado" id="estado">
+                    <option value="">Selecione seu estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+
+                </select>
+                <input class="dados" type="text" type="number" placeholder="Numero">
+                <input class="dados" type="text" type="text" placeholder="Cidade">
+                <input class="dados" type="text" type="text" placeholder="Bairro">
+                <input class="dados"  type="text" type="text" placeholder="Rua">
+                
+            </label>
+            
+            <label for="Senha"><span>Nivel de escolaridade</span>
+                <select class="dados" name="nivelEscolaridade" id="nivelEscolaridade">
+                    <option value="fundamental1">Fundamental do 1°- 5°</option>
+                    <option value="fundamental2">Fundamental do 6°- 9°</option>
+                    <option value="ensinomedio">Ensino Medio</option>
+                </select>
+            </input>
+            </label>
+            
+            <label for="Senha"><span>Crie uma Senha</span><br>
+                <input class="dados" type="password" id="senha" placeholder="Senha">
+            </input>
+            </label>
+           
+            <label for="Senha"><span>Autenticar Senha</span><br>
+                <input class="dados" type="password" id="senha" placeholder="Repita a Senha">
+            </input>
+            </label>
+            <div class="espacamento">
+                <input class="btnCadastro"type="submit" value="Cadastrar-se">
+                <p>Ja tem uma conta? <a href="./login.html">Entre com sua conta</a></p>
+            </div>
+        </form>
+    </div>
+<footer class="footer"></footer>
+</body>
+</html>

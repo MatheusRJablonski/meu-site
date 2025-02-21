@@ -1,0 +1,33 @@
+body{
+    background-color: #ffdead;
+}
+section {
+    display: flex;
+}
+
+header{
+    background-color: lightgray;
+    width:90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+main{
+
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+.divesquerda{
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.divconteudo{
+    background-color: yellow;
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+}
