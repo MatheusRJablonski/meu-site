@@ -1,15 +1,17 @@
 /*
-  Descrição:
-Dado um inteiro positivo M, encontre o menor número primo maior ou igual a M que seja também um palíndromo.
+Descrição:
+Dado um número inteiro não-negativo N, some seus dígitos repetidamente até que o resultado tenha apenas um dígito.
 
 Entrada:
-Um inteiro M (1 ≤ M ≤ 10^6).
+Um inteiro N (0 ≤ N ≤ 10¹⁸)
+
 Saída:
-O menor número primo palíndromo ≥ M.
+Um único dígito resultante da soma recursiva dos dígitos.
 
 Exemplo:
-Entrada: 31
-Saída:   101
+Entrada: 9875    9876
+Saída:   2       3
+
 */
 
 #include <bits/stdc++.h>
