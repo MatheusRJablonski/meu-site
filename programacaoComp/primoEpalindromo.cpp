@@ -1,3 +1,17 @@
+/*
+  Descrição:
+Dado um inteiro positivo M, encontre o menor número primo maior ou igual a M que seja também um palíndromo.
+
+Entrada:
+Um inteiro M (1 ≤ M ≤ 10^6).
+Saída:
+O menor número primo palíndromo ≥ M.
+
+Exemplo:
+Entrada: 31
+Saída:   101
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
