@@ -9,9 +9,10 @@ Saída:
 Um único dígito resultante da soma recursiva dos dígitos.
 
 Exemplo:
-Entrada: 9875    9876
-Saída:   2       3
-
+Entrada: 9875    
+Saída:   2       
+Entrada: 9876
+Saida:   3
 */
 
 #include <bits/stdc++.h>
@@ -34,6 +35,6 @@ int main(){
         s = to_string(num);
     }
     cout << num;
-    cout << x % 10;
+    
     
 }
